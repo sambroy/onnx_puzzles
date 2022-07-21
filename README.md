@@ -13,7 +13,7 @@ look at the workaround for [argmax](./ort13/example4.ipynb).
 The TL;DR of the examples is that many of the ops can be handled via _masking_.
 
 Note that some of these workarounds might not be needed any more for the more recent versions of the ORT. I have not looked at the more recent versions of the ORT and the examples here are a guide as to what to do in
-case an op implementation is currently missing. (These examples were also created when torchscript was in nascent stages, so the handling of control flow structures as here might not be required any
+case an op implementation is currently missing. (Also, these examples were created when torchscript was in nascent stages, so the handling of control flow structures as here might not be required any
 longer.)
 
 The descriptions of the examples is in [descriptions.md](./ort13/descriptions.md).
