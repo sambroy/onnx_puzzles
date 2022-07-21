@@ -13,6 +13,8 @@ look at the workaround for [argmax](./ort13/example4.ipynb).
 The TL;DR of the examples is that many of the ops can be handled via _masking_. Note that some of these workarounds might not be needed any more for the more recent versions of the ORT. I have not looked at the more recent versions of the ORT and the examples here are a guide as to what to do in
 case an op implementation is currently missing.
 
+The descriptions of the examples is in [descriptions.md](./ort13/descriptions.md).
+
 ## Background
 
 - What is ONNX? It is a _spec_ -- eg. refer to this [paperspace blog](https://blog.paperspace.com/what-every-ml-ai-developer-should-know-about-onnx/)
